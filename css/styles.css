@@ -1,0 +1,363 @@
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+
+.home-bg{
+
+  background-image: url("../media/back.jpg");
+  min-height: 95vh;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+
+}
+i{padding-top: 25px;
+
+  font-size: 25px;
+}
+.home-bg::after{
+
+  content: "";
+  background: rgba(0, 0, 30, 0.35);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+
+}
+nav{
+  background-color: red;
+}
+nav .nav-link{
+  font-size: 26px;
+  padding-right: 20px !important;
+}
+.navbar-custom{
+  background-image: none;
+
+   opacity: 0.8;
+}
+
+/* features */
+.features .card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: 30px;
+  padding: 0.5rem 2rem 1rem 2rem;
+  background-color: #246305;
+  height: 25rem;
+  width: 30rem;
+  overflow:auto;
+
+
+}
+
+
+.features .diff-color{
+background-color: #b0dd9a;
+color: black;
+}
+
+.item{
+  overflow:hidden;
+}
+/* .clr{
+clear:both;
+} */
+
+.features{
+  text-align: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  position: relative;
+  top: -85px;
+  z-index: 5;
+
+
+}
+.features .card:hover{
+  background-color: #b0dd9a;
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.features .diff-color:hover {
+  background-color:#246305 ;
+  color:white;
+  transition: 0.5s ease-in-out;
+}
+.features i{
+  padding-bottom: 3rem;
+  font-size: 55px;
+}
+
+.features h2{
+  padding-bottom: 55px;
+
+}
+.features p{
+  font-size: 20px;
+
+}
+
+/* countries */
+
+.data ul {
+	position: relative;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.5em;
+
+}
+.data ul li:before {
+	content: "✔️";
+	position: absolute;
+	left: 0;
+}
+
+.data li{
+  padding-bottom: 1rem;
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+}
+
+.countries{
+  background-color: #e9efc0;
+  position: relative;
+}
+
+.countries .data{
+  padding-top: 6.5rem;
+  padding-right: 11rem;
+}
+
+.countries p{
+  font-size: 1.3rem;
+  padding-bottom:1.5rem;
+}
+
+
+/* products */
+.products{
+  margin-top: 3rem;
+  text-align: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.products .card{
+  text-align: center;
+  border-width: 0;
+  width: 35rem;
+}
+.products img{
+  height: 224px;
+  width: 224px;
+  border-radius: 50%;
+  margin-left: 12rem;
+}
+
+.products .heading{
+  margin-bottom: 3rem;
+}
+
+.products p{
+  max-width: 15rem;
+  margin-left: 10rem;
+  margin-right: auto
+}
+
+
+/* contact */
+
+.contact{
+  text-align: center;
+  background-color: #404040 ;
+  padding-left: 13rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  color: #c0c0c0;
+
+}
+.contact p{
+  font-size: 20px;
+}
+.logo p{
+  padding-top: 2rem;
+  width: 18rem;
+}
+
+.contact .navigation{
+  padding-left: 23rem;
+}
+
+.contact .contacts{
+  margin-left: 23rem;
+}
+
+.navigation ul {
+  font-size: 20px;
+	position: relative;
+  padding-bottom:10px;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 1.5em;
+  text-align: left;
+}
+.navigation ul li:before {
+	content: ">";
+	position: absolute;
+	left: 0;
+
+}
+
+.navigation li{
+  padding-bottom: 10px;
+}
+
+.navigation .heading{
+  padding-bottom : 2rem;
+  font-size: 35px;
+  color: white;
+}
+
+.logo i{
+  font-size: 40px;
+  color: #d1ee73;
+  padding-right: 15px;
+}
+
+.social-media{
+  padding-left: 3.5rem;
+
+}
+
+.open{
+  padding-top: 20px;
+}
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-gap: 4rem;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+/* products_cat */
+
+.items{
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.embed-responsive .card-img-top {
+    object-fit: cover;
+}
+
+.items img{
+  height:70%;
+
+}
+
+.whoarewe{
+  display: flex;
+
+  justify-content: center;
+}
+.whoarewe-data{
+  margin-top: 7rem;
+  padding: 1rem 2rem 1rem 2rem;
+  background-color: #0da125;
+  color: white
+}
+
+.whoarewe-data p{
+  font-size: 20px;
+  width:70rem;
+  color: #c0c0c0;
+}
+
+.whywe{
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.whywe-data{
+  padding: 2.5rem 0 0 5rem;
+  margin-top: 7rem;
+  width: 50rem;
+  height: 20rem;
+
+  background-color: #76BA99;
+  color: white
+}
+
+.dashboard{
+  text-align: center;
+  justify-content: center;
+  background-color: #0da125;
+  grid-gap: 25px;
+  padding: 2rem 0 2rem 0;
+  margin: 0 2rem 2rem  2rem;
+}
+
+.contactus{
+  text-align: center;
+}
+
+.details{
+  background-color: #00FFAB;
+  margin: 2rem 2rem;
+  margin-top: 2rem;
+  padding: 2rem 0;
+  grid-gap: 4.5rem;
+  justify-content: center;
+  text-align: left;
+
+}
+.icon{
+  height: 4rem;
+  width: 4rem;
+  margin-right: 20px;
+}
+.email i{
+  font-size: 4rem;
+  padding-top: 0;
+}
+
+.telephone i{
+
+  font-size: 4rem;
+  padding-top: 0;
+  padding-right: 1rem;
+
+}
+
+.day-open i{
+  font-size: 4rem;
+  padding-top: 0;
+  padding-right: 1rem;
+
+}
