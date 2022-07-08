@@ -59,6 +59,8 @@ nav .nav-link{
 }
 
 /* features */
+
+
 .features .card{
   display: flex;
   flex-direction: column;
@@ -81,6 +83,13 @@ background-color: #b0dd9a;
 color: black;
 }
 
+.features svg{
+  height: 8rem;
+  width: 8rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3rem;
+}
 .item{
   overflow:hidden;
 }
