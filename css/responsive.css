@@ -1,0 +1,69 @@
+@media (max-width: 1600px) {
+    .logo img{
+        
+    
+}
+
+
+@media (max-width: 1400px) {
+    .features{
+        margin-left: 10%;
+        margin-right: 30%;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+    .countries .data{
+        padding-left: 94px;
+        padding-right: 110px;
+    }
+
+    .card-group{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    
+
+}
+
+@media (max-width: 1200px) {
+    .arrival_bg_box img{
+        display: none;
+    }
+
+    .right{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+    
+}
+
+@media (max-width: 760px) {
+    .contact{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 420px) {
+    .features{
+        margin-left: 10%;
+        margin-right: 10%;
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+}
+
+@media (max-width: 376px) {}
+
+@media (min-width: 1200px) {}
