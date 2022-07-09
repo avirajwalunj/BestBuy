@@ -817,7 +817,7 @@ textarea.form-control {
 }
 
 /* For Mobile */
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 576px) {
     .navbar-toggler{
       margin-left: 3rem;
     }
@@ -830,6 +830,7 @@ textarea.form-control {
     width: 15rem;
 
     }
+   
 
     .features{
       flex-direction: column;
@@ -885,7 +886,24 @@ textarea.form-control {
       top: -150px;
       margin:0;
     }
-    .card-body{
+    .arrival_section .arrival_bg_box img {
+      -o-object-position: top right;
+      object-position: top right;
+    }
+    .right{
+      margin-left: 0;
+      position: relative;
+      z-index: 5;
+      text-align: center;
+    }
+    .contact .list-nav{
+      padding-left: 7rem;
+    }
+    .arrival_section .box {
+      padding: 75px 25px;
+    }
+    .arrival_section .heading_container h2 {
+      font-size:38px !important;
 
     }
     .products .items{
@@ -929,6 +947,9 @@ textarea.form-control {
     /* width: 18rem; */
     /* margin-left: 0; */
     }
+    .about_section .row {
+      flex-direction: column-reverse;
+    }
 
     .navigation{
       padding-left: 0 !important;
@@ -948,6 +969,10 @@ textarea.form-control {
 
     .wrapper{
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    .arrival_bg_box img{
+      display:none
     }
 
 

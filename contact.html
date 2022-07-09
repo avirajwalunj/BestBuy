@@ -14,34 +14,40 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-custom sticky-top navbar-expand-lg py-4 bg-light shadow-sm">
-    <div class="container-fluid">
-      <div class="logo container">
-        <a class="navbar-brand" href="home.html">
-          <img src="media/logo 2.png" alt="" width="200" height="50">
-        </a>
+  <div class="main container-fluid">
+    <nav class="navbar nav-mo-height navbar-custom sticky-top navbar-expand-lg py-4 bg-light shadow-sm">
+      <div class="container-fluid">
+        <div class="logo container">
+          <div class="mo-nav">
+            <a class="navbar-brand" href="home.html">
+              <img src="media/logo 2.png" alt="" width="200" height="50">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="products.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="products.html">Product</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html" >Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    </nav>
+  
+</div>
 <!-- Contact Start -->
 <div class="container-fluid pt-5">
   <div class="text-center mb-4">
@@ -101,7 +107,7 @@
 <!-- Contact End -->
 
 
-<div class="contact d-flex flex-row">
+<div class="contact mo-view d-flex flex-row">
 
   <div class="logo">
     <img src="media/bottom logo.png" alt="logo" width="200" height="50">
@@ -137,3 +143,5 @@
   </div>
 
 </div>
+<script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
